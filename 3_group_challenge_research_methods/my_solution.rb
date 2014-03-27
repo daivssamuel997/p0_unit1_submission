@@ -35,9 +35,16 @@ end
 
 
 # Identify and describe the ruby method you implemented. 
-# 
-#
-#
+# My first method is my_array_finding_method that takes an array 'source' and a string 'thing_to_find' and returns only the elements in the array that contain the string
+#To implement this I first defined two empty arrays 'output' and 'a'. I think looped through all the elements of the array 'source' using the .each method.
+# When I get the first element of the array I use the 'split' method with pattern as 'empty string' and put it in another array 'a'. I then used the 'include?'
+#method to check if the 'thing_to_find' string is in array a. If it is then I put that element from 'source' array into the output arrray. In the end I return
+#the output array.
+
+# My second method is the my_hash_finding_method, which takes two inputs - a hash 'source' and a string 'thing_to_find' and it returns the 'key' elements of 
+#hash if the 'value' matches 'thing_to_find.First I declare an empty array called 'output'. I then loop through all the elements of the 'source' hash using the '.each method'.
+# I then check if each of the 'value' of key,value pair equals 'thing_to_find'. If it does then I put the 'key' in the output array and then return the output.
+
 
 # Person 2
 def my_array_modification_method(source, thing_to_modify)
