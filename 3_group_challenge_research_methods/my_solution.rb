@@ -106,8 +106,21 @@ p my_deletion_method(i_want_pets, "a") == ["I", 4, "pets", "but", "I", "only", 3
 p my_deletion_method(my_family_pets_ages, "George") == {"Evi" => 8, "Hoobie" => 5, "Bogart" => 6, "Poly" => 6, "Annabelle" => 2, "Ditto" => 5}
 
 # Reflect!
-# 
-# 
+# What parts of your strategy worked? What problems did you face?
+# In my solution I am using the .split method to split the elements of the array. Initially I was getting an error while using split. But then I realized
+# I need to convert the array element to a string first and then use split on it
+# What questions did you have while coding? What resources did you find to help you answer them?
+# I had to do a little research on why I was getting an error when I used the 'split' method. But I was able to figure it out.
+# What concepts are you having trouble with, or did you just figure something out? If so, what?
+# None.
+# Did you learn any new skills or tricks?
+# I already knew the methods that I used.
+# How confident are you with each of the learning objectives?
+#very confident
+# Which parts of the challenge did you enjoy?
+# Just trying a few things to get the result and then when I finally got it it made my day
+# Which parts of the challenge did you find tedious?
+# None
 # 
 # 
 # 
