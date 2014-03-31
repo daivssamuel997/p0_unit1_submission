@@ -64,7 +64,14 @@ sentece_maker(array)
 
 
 # 3. Refactored Solution
+# I did not change any of the code because I felt like it was already organized and clear with the
+# variable names. This was a fun exercise for me and I can't wait to do more. 
 
 
 
 # 4. Reflection 
+# I had a clear idea of how I wanted to go through with tackling this assignment and it all turned out fine I believe. 
+# I am feeling a little more comfortable with the code and know that I need to do a lot more practice. I didn't really 
+# face any problems with this code and I am ready to do another one! I am sure that there was a method in which I 
+# could have done this code in a lot less lines, but this was not clear yet to me. With more experience I am sure
+# that I will figure it out.
