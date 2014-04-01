@@ -19,7 +19,7 @@
 def median(array)
 {
   i = 0
-  array = array.sort
+  # array = array.sort
   
   if array.length % 2 == 0
     return ((array[array.length/2 - 1] + array[array.length/2])/2)
