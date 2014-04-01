@@ -16,6 +16,8 @@
 # I need to find the sort the array, then find the length of it, and return the middle number (len/2).
 
 # 2. Initial Solution
+puts "hi"
+
 def median(array)
 {
   i = 0
