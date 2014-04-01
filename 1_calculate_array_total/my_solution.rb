@@ -23,7 +23,7 @@
 # funciton. I will use .Upcase to make the first spot capital and end it with a period.
 
 # 2. Initial Solution
-total(array)
+def total(array)
 {
 	len = array.length
 	i = 0
@@ -37,7 +37,7 @@ total(array)
 	return sum
 }
 
-sentece_maker(array)
+def sentece_maker(array)
 {
 	len = array.length
 	i = 0
