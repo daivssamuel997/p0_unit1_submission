@@ -19,7 +19,7 @@
 def median(array)
 {
   i = 0
-  # array = array.sort
+  array = array.sort
   
   if array.length % 2 == 0
     return ((array[array.length/2 - 1] + array[array.length/2])/2)
@@ -29,8 +29,6 @@ def median(array)
     return array[array.length/2]
   end
 }
-
-require_relative "my_solution"
 
 describe 'median' do
   let(:array_1) { [1, 2, 3, 4, 5, 5, 7] }
