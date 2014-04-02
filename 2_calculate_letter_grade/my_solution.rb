@@ -72,16 +72,16 @@
 
     #Reflections
 #     What parts of your strategy worked? What problems did you face?
-#For this assignment I paired with Adam Dziuk. We both were able to solve this assigment without any issues
+#I just had syntax issues, which I figured out through trial and error. Overall, I didn't really struggle with this one. 
 # What questions did you have while coding? What resources did you find to help you answer them?
-# I didnt have any questions as such. I got to learn a new method 'reduce' as part of this challenge
+# I didnt really have any questions with this one. 
 # What concepts are you having trouble with, or did you just figure something out? If so, what?
-# None. Yes learnt a new method reduce
+# No trouble with this. Just really concentrated on working on syntax things. 
 # Did you learn any new skills or tricks?
-# Yes learnt a new method reduce
+# Just the flow of ruby. 
 # How confident are you with each of the learning objectives?
 # Very confident
 # Which parts of the challenge did you enjoy?
-# Pairing with Adam helped me learn some new tricks.
+# Everything. This was a fun little challenge. It served as a good warmup for the harder ones. 
 # Which parts of the challenge did you find tedious?
 # None
