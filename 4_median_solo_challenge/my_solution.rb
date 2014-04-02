@@ -30,18 +30,6 @@ def median(array)
     return array[array.length/2]
 end
 
-{
-  i = 0
-  array = array.sort
-  
-  if array.length % 2 == 0
-    return ((array[array.length/2 - 1] + array[array.length/2])/2)
-  end
-  
-  else
-    return array[array.length/2]
-  end
-}
 
 
 # 3. Refactored Solution
