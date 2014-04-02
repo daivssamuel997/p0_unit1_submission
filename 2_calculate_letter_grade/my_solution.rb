@@ -100,4 +100,6 @@ end
 # This assignment was fun because it was like a step higher than the socrates practice that we did earlier. We had to
 # combine two skills really in this one, finding the average and using if statements. I had a clear plan with this
 # project and that was evident by the pseudo code that I wrote. Every time that you do more practicing, things always
-# seem to get easier. I am ready to keep moving forward. 
+# seem to get easier. I am ready to keep moving forward. I really focused on working on some syntax issues that I 
+# was messing up. This was a fun challenge to work on it by trial and error because it was straightforward. Overall,
+# awesome challenge. 
