@@ -58,23 +58,18 @@
 
 
 # 3. Refactored Solution
-get_grades(array)
-{
+def get_grade(array)
   i = 0
   sum = 0
   avg = 0
+  len = array.length
   
-  if array == NULL
-    return NULL
-  end
-  
-  while i < array.length do
-  {
+  while i < len do
     sum = sum + array[i]
     i = i + 1
-  } end
+  end
   
-  avg = sum/array.length
+  avg = (sum/len)
   
   if avg >= 90
     return "A"
@@ -93,10 +88,8 @@ get_grades(array)
   end
   
   else
-  return "F"
-  end
+    return "F"
 end
-}
 
 
 # I just wanted to ensure that it went through the if statements correctly to return the grade. I also wanted to 
