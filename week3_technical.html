@@ -1,0 +1,99 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>
+			Exploring Your Values
+		</title>
+	<link rel="stylesheet" href="p0_gps1.1.css">
+
+	<style>
+		*{
+			background-color: silver;
+		}
+		h1{
+				color: black;
+				font-style: italic;
+				text-align: center;
+				padding-top: 50px;
+				padding-bottom: 75px;
+			}
+		#par{
+				text-align: center;
+				color: blue;
+				font-style: italic;
+				padding-left: 100px;
+				padding-right:  100px;
+			}
+			p{
+				background-color: white;
+			}
+	</style>
+
+	<body>
+		<dir id="par">
+			<h1>Looping</h1>
+
+			<p>
+				The While Loop <br></br><br></br>
+
+				This particular loop executes code while the conditional statement is true and doesn't stop executing it until the conditional statement is false. <br></br><br></br>
+
+				For example: <br></br>
+
+				i = 0<br></br>
+
+				while i < 3 do <br></br>
+					puts "hi"<br></br>
+					i = i + 1 <br></br>
+				end<br></br><br></br>
+
+				This will run the code 3 times because i is less than 3 3 times since it is incrementing by 1. You can also make use of a begin statement and put the while and conditional statement after the end that is for the begin. This will do the same thing. 
+			</p>
+
+			<p>
+
+			The Until Statement <br></br><br></br>
+
+			This loop executes code while the conditional statement is false. It is a reverse of the while loop. <br></br><br></br>
+
+			For example: <br></br>
+
+			counter = 0 <br></br>
+
+			until 2 > counter do <br></br>
+				puts "hi" <br></br>
+				counter = counter + 1 <br></br>
+			end <br></br> <br></br>
+
+			This will perform the loop 2 times and therefore, print "hi" twice. You may also use the begin statement with the until loop. This is similar to the while loop. 
+			</p>
+
+			<p>
+				The For Loop <br></br><br></br>
+
+				This loop looks a little differently than it does in some other programming languages, but still works similar. We define a range of times to execute a specific block of code and it performs it those amount of times. It is possible to manipulate the variable and lengthen the loop. <br></br><br></br>
+
+				Here is an example: <br></br>x
+
+				for i in 0..3<br></br>
+					puts "#{i} "<br></br>
+				end <br></br><br></br>
+
+				This code will print 0 1 2 3. This is really nifty if you know a specific amount of times to run the code. 
+			</p>
+
+			<p> The next four statements serve as support and help to assist the loop. <br></br><br></br>
+
+				Break: Terminates the internal loop that it is in. It is really handly for ensuring that the program doesn't go into an infinite loop. <br></br>
+
+				Next: Makes the program go to the next iteration of the most internal loop. It serves as an incrementor and is darn good at it. <br></br>
+
+				Redo: This one does pretty much what you think it would. It restarts the iteration of the most internal loop. You just need to be careful that you don't put yourself in an infinite loop. <br></br>
+
+				Retry: Serves as a rescue expression. If you are familiar with Java, retry is similar to try and catch blocks. It handles an error and restarts the code from the beginning of the begin body. 
+			</p>
+
+
+		</dir>
+	</body>
+</html>
